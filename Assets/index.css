@@ -1,0 +1,179 @@
+#nav{
+    height: 53px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brand{
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+
+
+    color: #FFFFFF;
+}
+
+#brand-text{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.authButtons{
+    width: 66px;
+    height: 25px;
+    border-radius: 50px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #000000;
+
+}
+
+#signIn{
+    background: #FFFFFF;
+    border: none;
+}
+
+#signUp{
+    background: #904CFF;
+    border: none;
+}
+
+
+#searchContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput{
+    margin-top: 30px;
+    width:60%;
+}
+
+#searchButton{
+    background-color: #904CFF;
+}
+
+#dataBlocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#results{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;;
+}
+
+.data{
+    width: 70%;
+    background-color: #f4f4f4;
+    box-shadow: 4px 6px 25px #D2DAE6 inset;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#word{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Hahmlet', serif;
+    color: #904CFF;
+    
+}
+
+#word span{
+    font-size: 18px;
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#def{
+    font-family: 'Hahmlet', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#ex-head{
+    font-family: 'Hahmlet', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #904CFF;
+}
+
+#ex{
+    font-family: 'Hahmlet', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#illus-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#illus-text{
+    font-family: 'Hahmlet', serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#illus-text2{
+    font-family: 'Hahmlet', serif;
+    font-weight: 400;
+}
+
+#default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    background-color: #f4f4f4;
+    box-shadow: 4px 6px 25px #D2DAE6 inset;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Hahmlet', serif;
+}
+
+#footer{
+    font-family: 'Hahmlet', serif;
+    color: white;
+    margin-top: 20px;;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#social{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#social a{
+    color: #904CFF;
+}
+
+/* #insta,
+#twitter,
+#linkedin{
+    cursor: pointer;
+} */
